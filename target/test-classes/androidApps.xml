@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JDI Light Mobile Android Native Apps Tests" thread-count="1">
+    <test name="Android native app tests">
+        <classes>
+            <class name="main.tests.MainTests" />
+            <class name="main.tests.CheckboxTests" />
+            <class name="main.tests.ContextMenuTests" />
+            <class name="main.tests.ExpandableListTests" />
+            <class name="main.tests.GalleryTests" />
+            <class name="main.tests.ImageSwitcherTests" />
+            <class name="main.tests.MobileKeyboardTests" />
+            <class name="main.tests.PickersTests" />
+            <class name="main.tests.PopupTests" />
+            <class name="main.tests.ProgressBarTests" />
+            <class name="main.tests.RadioButtonsTests" />
+            <class name="main.tests.RatingBarTests" />
+            <class name="main.tests.SearchViewTests" />
+            <class name="main.tests.SeekBarTest" />
+            <class name="main.tests.SpinnerTest" />
+            <class name="main.tests.StatusBarTests" />
+            <class name="main.tests.TabBarTests" />
+            <class name="main.tests.TextFieldTests" />
+            <class name="main.tests.TooltipsTest" />
+        </classes>
+    </test>
+</suite>

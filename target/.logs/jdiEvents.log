@@ -1,0 +1,51 @@
+00:23:45 [main] STEP  JDI - Run ApiDemos App Tests
+00:23:46 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+00:23:50 [main] STEP  JDI - Launch the app under test
+00:23:55 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:23:55 [main] STEP  JDI - Click on 'Search Field'
+00:23:57 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:23:57 [main] STEP  JDI - Input 'Java' in 'Search Text'
+00:24:01 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:01 [main] STEP  JDI - Click on 'Search Java Item'
+00:24:04 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:04 [main] STEP  JDI - Check that 'Title Text' is displayed
+00:24:04 [main] STEP  JDI - >>> false
+00:24:04 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:04 [main] STEP  JDI - Click on 'Image View Btn'
+00:24:14 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:14 [main] STEP  JDI - Click on 'Add To Reading'
+00:24:17 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:17 [main] STEP  JDI - Click on 'Onboarding Btn'
+00:24:17 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:17 [main] STEP  JDI - Clear value in Txt Input
+00:24:19 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:19 [main] STEP  JDI - Input 'Learning programming' in 'Txt Input'
+00:24:21 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:21 [main] STEP  JDI - Click on 'Ok Button'
+00:24:22 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:22 [main] STEP  JDI - Click on 'Navigate Up'
+00:24:24 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:24 [main] STEP  JDI - Click on 'My Lists'
+00:24:26 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:26 [main] STEP  JDI - Click on 'Learning Item Container'
+00:24:27 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:27 [main] STEP  JDI - Get 'Learning Item Text' text
+00:24:28 [main] STEP  JDI - Reset the app under test
+00:24:34 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:34 [main] STEP  JDI - Click on 'Search Field'
+00:24:36 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:36 [main] STEP  JDI - Input 'Java' in 'Search Text'
+00:24:40 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:40 [main] STEP  JDI - Get 'Search Java Item' text
+00:24:41 [main] STEP  JDI - >>> Object-oriented programming language
+00:24:41 [main] STEP  JDI - Reset the app under test
+00:24:46 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:46 [main] STEP  JDI - Click on 'Search Field'
+00:24:48 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:48 [main] STEP  JDI - Input 'Linkin Park Discography' in 'Search Text'
+00:24:52 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:52 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+00:24:54 [main] STEP  JDI - >>> false
+00:24:54 [main] STEP  JDI - Reset the app under test
+00:24:59 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+00:24:59 [main] STEP  JDI - Click on 'Search Field'
