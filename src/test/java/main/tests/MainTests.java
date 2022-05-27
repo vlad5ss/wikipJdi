@@ -65,7 +65,6 @@ public class MainTests extends WikiTestInit implements WikiS {
         assertThat(firstPage.listResult.get(1).isDisplayed()).isFalse();
     }
 
-
     @Test
     public void saveFirstArticleToMyListTest() {
         wikiSteps.searchText(JAVA);
@@ -79,7 +78,6 @@ public class MainTests extends WikiTestInit implements WikiS {
         firstPage.listResult.get(1).isDisplayed();
         assertThat(firstPage.listResult.size() > 0).isTrue();
     }
-
 
     @Test
     public void testChangeScreenOrientationOnSearchResults() {
