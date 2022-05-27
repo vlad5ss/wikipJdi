@@ -1,0 +1,30 @@
+09:55:02 [main] STEP  JDI - Run ApiDemos App Tests
+09:55:02 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+09:55:07 [main] STEP  JDI - Launch the app under test
+09:55:12 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:55:12 [main] STEP  JDI - Click on 'Search Field'
+09:55:14 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:55:14 [main] STEP  JDI - Input 'Java' in 'Search Text'
+09:55:19 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:55:19 [main] STEP  JDI - Click on 'Search Java Item'
+09:55:50 [main] ERROR JDI - !>>> FirstPage.searchJavaItem (xpath='//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']')
+09:56:22 [main] ERROR JDI - Failed actions chain: 
+09:56:22 [main] STEP  JDI - Reset the app under test
+09:56:26 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:56:26 [main] STEP  JDI - Click on 'Search Field'
+09:56:28 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:56:28 [main] STEP  JDI - Input 'Java' in 'Search Text'
+09:56:33 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:56:33 [main] STEP  JDI - Get 'Search Java Item' text
+09:58:31 [main] STEP  JDI - Run ApiDemos App Tests
+09:58:32 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+09:58:36 [main] STEP  JDI - Launch the app under test
+09:58:42 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:58:42 [main] STEP  JDI - Click on 'Search Field'
+09:58:44 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:58:44 [main] STEP  JDI - Input 'Java' in 'Search Text'
+09:58:50 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+09:58:50 [main] STEP  JDI - Click on 'Search Java Item'
+09:59:21 [main] ERROR JDI - !>>> FirstPage.searchJavaItem (xpath='//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']')
+09:59:53 [main] ERROR JDI - Failed actions chain: 
+09:59:53 [main] STEP  JDI - Reset the app under test
