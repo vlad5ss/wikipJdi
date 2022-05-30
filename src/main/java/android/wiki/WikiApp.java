@@ -1,6 +1,7 @@
 package android.wiki;
 
 import android.elements.NewNameType;
+import android.pages.FirstPage;
 import com.epam.jdi.light.mobile.elements.pageobjects.annotations.JApp;
 
 

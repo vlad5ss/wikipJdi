@@ -1,5 +1,8 @@
 package android.steps;
 
+import com.jdiai.tools.Timer;
+import io.qameta.allure.Step;
+
 import static android.wiki.WikiApp.firstPage;
 
 public class WikiSteps {
@@ -20,12 +23,44 @@ public class WikiSteps {
         firstPage.okButton.click();
         firstPage.navigateUp.click();
         firstPage.myLists.click();
-//        newNameType.select(NameType.BY_NAME);
         firstPage.learningItemContainer.click();
         return this;
     }
 
-    public static String  getTitleText() {
-         return firstPage.titleText.getText();
+    public static String getTitleText() {
+        return firstPage.titleText.getText();
+    }
+
+    @Step("Clear and close button")
+    public void clearAndCloseBtn() {
+        firstPage.clearSearch.clear();
+        firstPage.closeBtn.click();
+    }
+
+    @Step("SearchJava item click")
+    public void searchJavaItemClick() {
+        firstPage.searchJavaItem.click();
+    }
+
+    @Step("SearchAppium item click")
+    public void searchAppiumItemClick() {
+        firstPage.searchAppiumItem.click();
+        new Timer(5000L).wait(() -> firstPage.titleText.isDisplayed());
+    }
+
+    @Step("Close btn")
+    public void closeBtnclose() {
+        new Timer(5000L).wait(() -> firstPage.listResult.get(1).isDisplayed());
+        firstPage.closeBtn.click();
+    }
+
+    @Step("timer for display results")
+    public void timerDispalyResults() {
+        new Timer(5000L).wait(() -> firstPage.listResult.get(1).isDisplayed());
+    }
+
+    @Step("Timer for display title")
+    public void timerDispalyTitle() {
+        new Timer(5000L).wait(() -> firstPage.titleText.isDisplayed());
     }
 }

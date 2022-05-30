@@ -1,0 +1,137 @@
+15:30:21 [main] STEP  JDI - Run ApiDemos App Tests
+15:30:21 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+15:30:27 [main] STEP  JDI - Launch the app under test
+15:30:35 [main] STEP  JDI - Click on 'Search Field'
+15:30:40 [main] STEP  JDI - Input 'Appium' in 'Search Text'
+15:30:44 [main] STEP  JDI - Click on 'Search Appium Item'
+15:30:48 [main] STEP  JDI - Check that 'Title Text' is displayed
+15:30:51 [main] STEP  JDI - >>> false
+15:30:51 [main] STEP  JDI - Check that 'Title Text' is displayed
+15:30:51 [main] STEP  JDI - >>> false
+15:30:51 [main] STEP  JDI - Check that 'Title Text' is displayed
+15:30:52 [main] STEP  JDI - >>> false
+15:30:52 [main] STEP  JDI - Check that 'Title Text' is displayed
+15:30:52 [main] STEP  JDI - >>> false
+15:30:52 [main] STEP  JDI - Check that 'Title Text' is displayed
+15:30:56 [main] STEP  JDI - >>> true
+15:30:56 [main] STEP  JDI - Scroll down by 300 px
+15:30:59 [main] STEP  JDI - Reset the app under test
+15:34:09 [main] STEP  JDI - Run ApiDemos App Tests
+15:34:10 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+15:34:16 [main] STEP  JDI - Launch the app under test
+15:34:22 [main] STEP  JDI - Click on 'Search Field'
+15:34:29 [main] STEP  JDI - Input 'Java' in 'Search Text'
+15:34:34 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:35 [main] STEP  JDI - >>> false
+15:34:35 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:35 [main] STEP  JDI - >>> false
+15:34:35 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:35 [main] STEP  JDI - >>> false
+15:34:35 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:36 [main] STEP  JDI - >>> false
+15:34:36 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:36 [main] STEP  JDI - >>> false
+15:34:36 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:36 [main] STEP  JDI - >>> false
+15:34:36 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:37 [main] STEP  JDI - >>> false
+15:34:37 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:37 [main] STEP  JDI - >>> false
+15:34:37 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:37 [main] STEP  JDI - >>> false
+15:34:37 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:37 [main] STEP  JDI - >>> false
+15:34:37 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:37 [main] STEP  JDI - >>> false
+15:34:37 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:38 [main] STEP  JDI - >>> false
+15:34:38 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:38 [main] STEP  JDI - >>> false
+15:34:38 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:38 [main] STEP  JDI - >>> false
+15:34:38 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:38 [main] STEP  JDI - >>> false
+15:34:38 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:38 [main] STEP  JDI - >>> false
+15:34:38 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:39 [main] STEP  JDI - >>> false
+15:34:39 [main] STEP  JDI - Click on 'Close Btn'
+15:34:39 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:34:39 [main] STEP  JDI - >>> false
+15:34:39 [main] STEP  JDI - Reset the app under test
+15:37:40 [main] STEP  JDI - Run ApiDemos App Tests
+15:37:40 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+15:37:46 [main] STEP  JDI - Launch the app under test
+15:37:51 [main] STEP  JDI - Click on 'Search Field'
+15:37:56 [main] STEP  JDI - Input 'Java' in 'Search Text'
+15:38:01 [main] STEP  JDI - Click on 'Search Java Item'
+15:38:05 [main] STEP  JDI - Check that 'Title Text' is displayed
+15:38:08 [main] STEP  JDI - >>> false
+15:38:08 [main] STEP  JDI - Click on 'Image View Btn'
+15:38:23 [main] STEP  JDI - Click on 'Add To Reading'
+15:38:26 [main] STEP  JDI - Click on 'Onboarding Btn'
+15:38:26 [main] STEP  JDI - Clear value in Txt Input
+15:38:28 [main] STEP  JDI - Input 'Learning programming' in 'Txt Input'
+15:38:29 [main] STEP  JDI - Click on 'Ok Button'
+15:38:30 [main] STEP  JDI - Click on 'Navigate Up'
+15:38:36 [main] STEP  JDI - Click on 'My Lists'
+15:38:39 [main] STEP  JDI - Click on 'Learning Item Container'
+15:38:40 [main] STEP  JDI - Get 'Learning Item Text' text
+15:38:42 [main] STEP  JDI - Reset the app under test
+15:38:48 [main] STEP  JDI - Click on 'Search Field'
+15:38:52 [main] STEP  JDI - Input 'Java' in 'Search Text'
+15:38:55 [main] STEP  JDI - Get 'Search Java Item' text
+15:38:58 [main] STEP  JDI - >>> Object-oriented programming language
+15:38:58 [main] STEP  JDI - Reset the app under test
+15:39:02 [main] STEP  JDI - Click on 'Search Field'
+15:39:06 [main] STEP  JDI - Input 'Linkin Park Discography' in 'Search Text'
+15:39:09 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:11 [main] STEP  JDI - >>> false
+15:39:11 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:11 [main] STEP  JDI - >>> false
+15:39:11 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:12 [main] STEP  JDI - >>> false
+15:39:12 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:12 [main] STEP  JDI - >>> false
+15:39:12 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:12 [main] STEP  JDI - >>> false
+15:39:12 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:12 [main] STEP  JDI - >>> false
+15:39:12 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:12 [main] STEP  JDI - >>> false
+15:39:13 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:13 [main] STEP  JDI - >>> false
+15:39:13 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:13 [main] STEP  JDI - >>> false
+15:39:13 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:13 [main] STEP  JDI - >>> false
+15:39:13 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:13 [main] STEP  JDI - >>> false
+15:39:13 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:13 [main] STEP  JDI - >>> false
+15:39:13 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:13 [main] STEP  JDI - >>> false
+15:39:14 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:14 [main] STEP  JDI - >>> false
+15:39:14 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:14 [main] STEP  JDI - >>> false
+15:39:14 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:14 [main] STEP  JDI - >>> false
+15:39:14 [main] STEP  JDI - Check that 'List Result[2]' is displayed
+15:39:14 [main] STEP  JDI - >>> false
+15:39:14 [main] STEP  JDI - Reset the app under test
+15:39:19 [main] STEP  JDI - Click on 'Search Field'
+15:39:22 [main] STEP  JDI - Input 'Java' in 'Search Text'
+15:39:25 [main] STEP  JDI - Clear value in Clear Search
+15:39:28 [main] STEP  JDI - Click on 'Close Btn'
+15:39:28 [main] STEP  JDI - Check that 'Close Btn' is displayed
+15:39:29 [main] STEP  JDI - >>> false
+15:39:29 [main] STEP  JDI - Reset the app under test
+15:39:33 [main] STEP  JDI - Click on 'Search Field'
+15:39:37 [main] STEP  JDI - Input 'Java' in 'Search Text'
+15:39:40 [main] STEP  JDI - Click on 'Search Java Item'
+15:39:44 [main] STEP  JDI - Get 'Title Text' text
+15:39:50 [main] STEP  JDI - Check that 'Title Text' is displayed
+15:39:54 [main] STEP  JDI - >>> true
+15:39:54 [main] STEP  JDI - Get 'Title Text' text
+15:39:54 [main] STEP  JDI - Reset the app under test

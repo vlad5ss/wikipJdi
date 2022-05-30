@@ -1,4 +1,4 @@
-package android.wiki;
+package android.pages;
 
 import com.epam.jdi.light.mobile.elements.common.Button;
 import com.epam.jdi.light.mobile.elements.common.Text;

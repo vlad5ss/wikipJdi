@@ -5,7 +5,6 @@ import android.steps.WikiS;
 import android.steps.WikiSteps;
 import com.epam.jdi.light.mobile.elements.common.MobileDevice;
 import com.epam.jdi.light.mobile.elements.composite.MobileScreen;
-import com.jdiai.tools.Timer;
 import main.WikiTestInit;
 import org.openqa.selenium.ScreenOrientation;
 import org.testng.Assert;
@@ -31,24 +30,19 @@ public class MainTests extends WikiTestInit implements WikiS {
 
     @Test
     public void testCancelSearchTest() {
-        wikiSteps.searchText(JAVA);
-        firstPage.clearSearch.clear();
-        firstPage.closeBtn.click();
+        wikiSteps.searchText(JAVA).clearAndCloseBtn();
         assertThat(firstPage.closeBtn.isDisplayed()).as("Close button displayed").isFalse();
     }
 
     @Test
     public void testCompareArticleTitleTest() {
-        wikiSteps.searchText(JAVA);
-        firstPage.searchJavaItem.click();
+        wikiSteps.searchText(JAVA).searchJavaItemClick();
         assertThat(firstPage.titleText.getText()).as("Java object").contains(JAVA_LANGUAGE);
     }
 
     @Test
     public void testScrollArticleTest() {
-        wikiSteps.searchText(APPIUM);
-        firstPage.searchAppiumItem.click();
-        firstPage.titleText.isDisplayed();
+        wikiSteps.searchText(APPIUM).searchAppiumItemClick();
         MobileScreen.scrollDown(300);
     }
 
@@ -59,37 +53,33 @@ public class MainTests extends WikiTestInit implements WikiS {
 
     @Test
     public void testClearSearchTest() {
-        wikiSteps.searchText(JAVA);
-        firstPage.listResult.get(1).isDisplayed();
-        firstPage.closeBtn.click();
+        wikiSteps.searchText(JAVA).closeBtnclose();
         assertThat(firstPage.listResult.get(1).isDisplayed()).isFalse();
     }
 
     @Test
     public void saveFirstArticleToMyListTest() {
-        wikiSteps.searchText(JAVA);
-        wikiSteps.saveArticleWiki(LEARNING_PROGRAMM);
+        wikiSteps.searchText(JAVA).saveArticleWiki(LEARNING_PROGRAMM);
         assertThat(firstPage.learningItemText.getText()).isEqualTo(JAVA_LANGUAGE);
     }
 
     @Test
     public void testAmountOfNotEmptySearchTest() {
-        wikiSteps.searchText(LINKIN_PARK);
-        firstPage.listResult.get(1).isDisplayed();
+        wikiSteps.searchText(LINKIN_PARK).timerDispalyResults();
         assertThat(firstPage.listResult.size() > 0).isTrue();
     }
 
     @Test
-    public void testChangeScreenOrientationOnSearchResults() {
+    public void testChangeScreenOrientationOnSearchResultsTest() {
         wikiSteps.searchText(JAVA);
         firstPage.searchJavaItem.click();
         String title_before_rotation = WikiSteps.getTitleText();
         MobileDevice.rotate(ScreenOrientation.LANDSCAPE);
-        new Timer(5000L).wait(() -> firstPage.titleText.isDisplayed());
+        wikiSteps.timerDispalyTitle();
         String title_after_rotation = WikiSteps.getTitleText();
         Assert.assertEquals("Article title have been changed after screen rotation", title_before_rotation, title_after_rotation);
         MobileDevice.rotate(ScreenOrientation.PORTRAIT);
-        new Timer(5000L).wait(() -> firstPage.titleText.isDisplayed());
+        wikiSteps.timerDispalyTitle();
         String second_after_rotation = WikiSteps.getTitleText();
         Assert.assertEquals("Article title have been changed after screen rotation", title_after_rotation, second_after_rotation);
     }
