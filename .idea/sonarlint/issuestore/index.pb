@@ -13,9 +13,11 @@ W
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 T
 $src/test/java/main/WikiTestInit.java,a\4\a4598bda416edbd0971e72404d0a273f55fa920e
-Y
-)src/main/java/android/wiki/FirstPage.java,b\d\bd6197ecef666e4b35692be21c0c4bc41cf4a2e6
 N
 src/test/resources/general.xml,a\4\a4d5dce6b8412437845f15ae855dfef632cfe732
 W
 'src/test/java/main/tests/MainTests.java,9\9\99c4cb6788516393265b7afca8470dc9f2610097
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Z
+*src/main/java/android/pages/FirstPage.java,8\f\8fd922ad47bd54c92bbdfe8e03265cee4ae480a4

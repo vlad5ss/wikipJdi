@@ -18,7 +18,7 @@ public class WikiTestInit {
     public void setUp() {
         final String FILE_NAME = "src/main/resources/org.wikipedia.apk";
         initMobile(WikiApp.class);
-        logger.toLog("Run ApiDemos App Tests");
+        logger.toLog("Run Wikipedia APP");
         File file = new File(FILE_NAME);
         String path = file.getAbsolutePath();
         AppManager.installApp(path);
