@@ -1,5 +1,6 @@
 package android.pages;
 
+import com.epam.jdi.light.elements.common.UIElement;
 import com.epam.jdi.light.mobile.elements.common.Button;
 import com.epam.jdi.light.mobile.elements.common.Text;
 import com.epam.jdi.light.mobile.elements.common.app.android.TextField;
@@ -69,4 +70,9 @@ public class FirstPage {
     @MobileFindBy(xpath = "//*[@text='Java (programming language)']")
     public static TextField learningItemText;
 
+    @MobileFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.support.v4.view.ViewPager/android.view.ViewGroup/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.LinearLayout']")
+    public static UIElement linearLayout;
+
+    @MobileFindBy(id = "org.wikipedia:id/fragment_feed_header")
+    public static UIElement linearLayout2;
 }

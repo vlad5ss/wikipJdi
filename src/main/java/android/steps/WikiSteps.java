@@ -9,6 +9,7 @@ public class WikiSteps {
     public WikiSteps searchText(String name) {
         firstPage.searchField.click();
         firstPage.searchText.input(name);
+        new Timer(5000L).wait(() -> firstPage.linearLayout.isDisplayed());
         return this;
     }
 

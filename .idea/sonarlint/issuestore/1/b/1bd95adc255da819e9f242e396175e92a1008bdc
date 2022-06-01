@@ -1,11 +1,11 @@
 
-L
-java:S1444"/Make this "public static firstPage" field final(öæˆ’8é£€©‘0
-M
-java:S1444"1Make this "public static newNameType" field final(¶åÿI8é£€©‘0
 r
 java:S1104"UMake firstPage a static final constant or non-public and provide accessors if needed.(öæˆ’8é£€©‘0
-s
-java:S1104"WMake newNameType a static final constant or non-public and provide accessors if needed.(¶åÿI8é£€©‘0
 \
 java:S1118	":Add a private constructor to hide the implicit public one.(‘µ­›úÿÿÿÿ8é£€©‘0
+s
+java:S1104"WMake newNameType a static final constant or non-public and provide accessors if needed.(¶åÿI8é£€©‘0
+M
+java:S1444"1Make this "public static newNameType" field final(¶åÿI8é£€©‘0
+L
+java:S1444"/Make this "public static firstPage" field final(öæˆ’8é£€©‘0

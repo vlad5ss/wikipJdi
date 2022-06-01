@@ -1,0 +1,12 @@
+10:50:54 [main] STEP  JDI - Run Wikipedia APP
+10:50:54 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+10:50:59 [main] STEP  JDI - Launch the app under test
+10:52:02 [main] STEP  JDI - Click on 'Search Field'
+10:52:05 [main] STEP  JDI - Input 'Hurzuf' in 'Search Text'
+10:52:48 [main] STEP  JDI - Reset the app under test
+10:53:22 [main] STEP  JDI - Run Wikipedia APP
+10:53:22 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+10:53:27 [main] STEP  JDI - Launch the app under test
+10:54:25 [main] STEP  JDI - Click on 'Search Field'
+10:54:27 [main] STEP  JDI - Input 'Aygezard' in 'Search Text'
+10:55:11 [main] STEP  JDI - Reset the app under test
