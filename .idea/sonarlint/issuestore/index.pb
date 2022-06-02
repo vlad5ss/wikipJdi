@@ -21,3 +21,13 @@ W
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 Z
 *src/main/java/android/pages/FirstPage.java,8\f\8fd922ad47bd54c92bbdfe8e03265cee4ae480a4
+V
+&src/main/java/android/model/Coord.java,2\2\22b6d1db4462f71f120730e1bf1cf8f20d818f44
+[
++src/main/java/android/model/CountryDto.java,2\7\27e8aefd7ffcf2ebcaa9e48d907d397bc836e430
+X
+(src/test/java/main/tests/SearchTest.java,6\d\6df7833de74ed4b2df7f7f8abb1ffeb6c4b704d3
+_
+/src/main/java/android/utils/UtilsParseJson.java,e\e\ee1b974d3aaa148b37bab48031802d3fff5983fb
+\
+,src/main/java/android/utils/UtilsRandom.java,b\d\bd94af4171cc68fd8ebba4145a900edee197c561

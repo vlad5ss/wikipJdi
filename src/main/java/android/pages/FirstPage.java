@@ -74,5 +74,5 @@ public class FirstPage {
     public static UIElement linearLayout;
 
     @MobileFindBy(id = "org.wikipedia:id/fragment_feed_header")
-    public static UIElement linearLayout2;
+    public static UIElement dataLayout;
 }

@@ -1,0 +1,9 @@
+
+f
+java:S2259-"IA "NullPointerException" could be thrown; "inputStream" is nullable here.(Ûó ÿ8½ Œò‘0
+o
+java:S2095&"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ğ’Ñ‘ıÿÿÿÿ8½ Œò‘0
+~
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "countryName".(©«Äøÿÿÿÿ
+W
+java:S1118":Add a private constructor to hide the implicit public one.(§¥ËØ8ÓûÏñ‘0

@@ -1,44 +1,47 @@
 
-M
-java:S1444+"2Make this "public static imageViewBtn" field final(ºÃôşÿÿÿÿ
-I
-java:S14441"3Make this "public static onboardingBtn" field final(ó¨ğ
-D
-java:S14447".Make this "public static okButton" field final(ôğë—
-G
-java:S1444"1Make this "public static clearSearch" field final(„ä®
-M
-java:S1444."2Make this "public static addToReading" field final(¾Œ¿ûşÿÿÿÿ
-O
-java:S1444"4Make this "public static searchJavaItem" field final(à¡“‡øÿÿÿÿ
-L
-java:S1444F"6Make this "public static learningItemText" field final(¿Ïçò
-L
-java:S1444"6Make this "public static searchAppiumItem" field final(›®õô
-E
-java:S1444:"0Make this "public static navigateUp" field final(™¨°=
-F
-java:S1444"0Make this "public static searchText" field final(Ó°š
-F
-java:S1444("0Make this "public static listResult" field final(éƒ¸ú
-V
-java:S1444C";Make this "public static learningItemContainer" field final(¶©„œıÿÿÿÿ
-H
-java:S1444@"2Make this "public static learningItem" field final(Æˆ´«
-E
-java:S1444"/Make this "public static titleText" field final(ÛŠ„ı
-F
-java:S1444"0Make this "public static searchWiki" field final(·ı—
-J
-java:S1444%"4Make this "public static referencesText" field final(‘ •ã
-I
-java:S14444".Make this "public static txtInput" field final(ÅåÊàùÿÿÿÿ
-H
-java:S1444="-Make this "public static myLists" field final(èıœúüÿÿÿÿ
-G
-java:S1444"1Make this "public static searchField" field final(‹è¯ß
 P
-java:S1118
-":Add a private constructor to hide the implicit public one.(†Í‚ì
+java:S1444M"3Make this "public static linearLayout2" field final(•ÕŒà8‘Í·ò‘0
+H
+java:S1444>"-Make this "public static myLists" field final(èıœúüÿÿÿÿ
+I
+java:S14445".Make this "public static txtInput" field final(ÅåÊàùÿÿÿÿ
+H
+java:S1444A"2Make this "public static learningItem" field final(Æˆ´«
+L
+java:S1444G"6Make this "public static learningItemText" field final(¿Ïçò
+V
+java:S1444D";Make this "public static learningItemContainer" field final(¶©„œıÿÿÿÿ
+F
+java:S1444"0Make this "public static searchText" field final(Ó°š
+M
+java:S1444/"2Make this "public static addToReading" field final(¾Œ¿ûşÿÿÿÿ
+O
+java:S1444J"2Make this "public static linearLayout" field final(úãƒ‚8€˜ò‘0
+F
+java:S1444)"0Make this "public static listResult" field final(éƒ¸ú
+G
+java:S1444 "1Make this "public static clearSearch" field final(„ä®
+F
+java:S1444"0Make this "public static searchWiki" field final(·ı—
+O
+java:S1444"4Make this "public static searchJavaItem" field final(à¡“‡øÿÿÿÿ
 D
-java:S1444"".Make this "public static closeBtn" field final(Š„¸²
+java:S1444#".Make this "public static closeBtn" field final(Š„¸²
+J
+java:S1444&"4Make this "public static referencesText" field final(‘ •ã
+E
+java:S1444"/Make this "public static titleText" field final(ÛŠ„ı
+P
+java:S1118":Add a private constructor to hide the implicit public one.(†Í‚ì
+I
+java:S14442"3Make this "public static onboardingBtn" field final(ó¨ğ
+G
+java:S1444"1Make this "public static searchField" field final(‹è¯ß
+L
+java:S1444"6Make this "public static searchAppiumItem" field final(›®õô
+M
+java:S1444,"2Make this "public static imageViewBtn" field final(ºÃôşÿÿÿÿ
+E
+java:S1444;"0Make this "public static navigateUp" field final(™¨°=
+D
+java:S14448".Make this "public static okButton" field final(ôğë—

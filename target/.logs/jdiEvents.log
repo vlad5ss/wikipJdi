@@ -1,1 +1,12 @@
-11:10:17 [main] STEP  JDI - Reset the app under test
+11:13:33 [main] STEP  JDI - Run Wikipedia APP
+11:13:33 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+11:13:40 [main] STEP  JDI - Launch the app under test
+11:15:18 [main] STEP  JDI - Click on 'Search Field'
+11:15:48 [main] ERROR JDI - !>>> FirstPage.searchField (xpath='//*[contains(@text, 'Search Wikipedia')]')
+11:16:18 [main] ERROR JDI - Failed actions chain: 
+11:16:18 [main] STEP  JDI - Reset the app under test
+11:16:48 [main] ERROR JDI - !>>> AppManager
+11:17:19 [main] ERROR JDI - Failed actions chain: AppManager.resetApp()
+11:18:33 [main] STEP  JDI - Run Wikipedia APP
+11:18:33 [main] STEP  JDI - Install the 'C:ideaAppiumjdiTest33wikipJdisrcmainresourcesorg.wikipedia.apk' app
+11:18:39 [main] STEP  JDI - Launch the app under test
